@@ -18,16 +18,16 @@
                     <div>Some fields are missing</div>
                     <fieldset>
                         <div class="d-flex row">
-                            <div class="col-4">
-                                <label>Card</label>
+                            <div class="row col-4">
+                                <label><strong>Card</strong></label>
                                 <input type="tel" placeholder="XXXXXXXXXXXXXXXX">
                             </div>
-                            <div class="col-4">
-                                <label>CVC</label>
+                            <div class="row col-4">
+                                <label><strong>CVC</strong></label>
                                 <input type="tel" placeholder="XXX">
                             </div>
-                            <div class="col-4">
-                                <label>Amount</label>
+                            <div class="row col-4">
+                                <label><strong>Amount</strong></label>
                                 <input type="tel" placeholder="Amount">
                             </div>
 
@@ -37,12 +37,12 @@
         
                     <fieldset>
                         <div class="d-flex row">
-                            <div class="col-6">
-                                <label>First Name</label>
+                            <div class="row col-6">
+                                <label><strong>First Name</strong></label>
                                 <input type="text" placeholder="">
                             </div>
-                            <div class="col-6">
-                                <label>Last Name</label>
+                            <div class="row col-6">
+                                <label><strong>Last Name</strong></label>
                                 <input type="text" placeholder="">
                             </div>
                         </div>
@@ -50,16 +50,16 @@
                 </div>
                 <fieldset>
                     <div class="d-flex row">
-                        <div class="col-6">
-                            <label>City</label>
+                        <div class="row col-6">
+                            <label><strong>City</strong></label>
                             <input type="text" placeholder="">
                         </div>
-                        <div class="col-3">
-                            <label>State</label>
+                        <div class="row col-3">
+                            <label><strong>State</strong></label>
                             <input type="text" placeholder="">
                         </div>
-                        <div class="col-3">
-                            <label>Postal code</label>
+                        <div class="row col-3">
+                            <label><strong>Postal code</strong></label>
                             <input type="tel" placeholder="">
                         </div>
                     </div>
@@ -68,18 +68,20 @@
 
                 <fieldset>
                     <div class="d-flex row">
-                        <div class="col-6">
-                            <label>We Accept</label>
+                        <div class="row col-6">
+                            <label><strong>We Accept</strong></label>
                         </div>
-                        <div class="col-6">
-                            <label>Message</label>
+                        <div class="row col-6">
+                            <label><strong>Message</strong></label>
                             <textarea></textarea>
+                            <p>Add any notes here.</p>
                         </div>
                     </div>
                 </fieldset>
                 
                 <div>
-                    
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button>
                 </div>
             </div>
         </fieldset>
