@@ -9,99 +9,102 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <fieldset>
-            <div>
-                <div>
-                    <h1>Payment form Example</h1>
+  <form>
+    <fieldset>
+      <div>
+        <div>
+          <h1>Payment form Example</h1>
+        </div>
+        <div>
+            <div class="p-3 mb-2 text-danger">Some fields are missing</div>
+            <fieldset>
+                <div class="d-flex row">
+                    <div class="m-1 row col-4">
+                    <label><strong>Card #</strong></label>
+                        <input type="tel" placeholder="XXXXXXXXXXXXXXXX">
+                    </div>
+                    <div class="m-0.5 row col-4">
+                    <label><strong>CVC #</strong></label>
+                    <input type="tel" placeholder="XXX">
+                    </div>
+                    <div class="m-1 row col-4">
+                    <label><strong>Amount</strong></label>
+                    <input type="tel" placeholder="Amount">
+                    </div>
                 </div>
-                <div>
-                    <div class="p-3 mb-2 text-danger">Some fields are missing</div>
-                    <fieldset>
-                        <div class="d-flex row">
-                            <div class="m-1 row col-4">
-                                <label><strong>Card #</strong></label>
-                                <input type="tel" placeholder="XXXXXXXXXXXXXXXX">
-                            </div>
-                            <div class="m-0.5 row col-4">
-                                <label><strong>CVC #</strong></label>
-                                <input type="tel" placeholder="XXX">
-                            </div>
-                            <div class="m-1 row col-4">
-                                <label><strong>Amount</strong></label>
-                                <input type="tel" placeholder="Amount">
-                            </div>
-
-                        </div>
-                    </fieldset>
-                </div>
+            </fieldset>
+        </div>
         
-                    <fieldset>
-                        <div class="d-flex row">
-                            <div class="m-1 row col-6">
-                                <label><strong>First Name</strong></label>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="row col-6">
-                                <label><strong>Last Name</strong></label>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-                    </fieldset>
+        <fieldset>
+            <div class="d-flex row">
+                <div class="m-1 row col-6">
+                <label><strong>First Name</strong></label>
+                    <input type="text" placeholder="">
                 </div>
-                <fieldset>
-                    <div class="d-flex row">
-                        <div class="m-1 row col-6">
-                            <label><strong>City</strong></label>
-                            <input type="text" placeholder="">
-                        </div>
-                        <div class="row col-3">
-                            <label><strong>State</strong></label>
-                            <input type="text" placeholder="">
-                        </div>
-                        <div class="m-1 row col-3">
-                            <label><strong>Postal code</strong></label>
-                            <input type="tel" placeholder="">
-                        </div>
-                    </div>
-                </fieldset>
-                </div>
-
-                <fieldset>
-                    <div class="d-flex row">
-                        <div class="row col-6">
-                            <label><strong>We Accept</strong></label>
-                            <ul>
-                                <div class="p-2 mb-1 d-flex">
-                                    <div class="m-4">
-                                        <input type="radio" id="Pago" name="Pago" value="Pago">
-                                        <label for="Pago"><li><i class="fa-brands fa-cc-visa"></i></li></label>
-                                    </div>
-                                    <div class="m-4">
-                                        <input type="radio" id="Pago" name="Pago" value="Pago">
-                                        <label for="Pago"><li><i class="fa-brands fa-cc-mastercard"></i></li></label>
-                                    </div>
-                                    <div class="m-4">
-                                        <input type="radio" id="Pago" name="Pago" value="Pago">
-                                        <label for="Pago"><li><i class="fa-brands fa-cc-amex"></i></li></label>
-                                    </div>
-                                </div>
-                            </ul>
-                        </div>
-                        <div class="row col-6">
-                            <label><strong>Message</strong></label>
-                            <textarea></textarea>
-                            <p>Add any notes here.</p>
-                        </div>
-                    </div>
-                </fieldset>
-                
-                <div class="p-2 d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Send</button>
+                <div class="row col-6">
+                <label><strong>Last Name</strong></label>
+                <input type="text" placeholder="">
                 </div>
             </div>
         </fieldset>
+
+      </div>
+
+      <fieldset>
+        <div class="d-flex row">
+            <div class="m-1 row col-6">
+                <label><strong>City</strong></label>
+                <input type="text" placeholder="">
+            </div>
+            <div class="row col-3">
+                <label><strong>State</strong></label>
+                    <input type="text" placeholder="">
+            </div>
+
+            <div class="m-1 row col-3">
+                <label><strong>Postal code</strong></label>
+                <input type="tel" placeholder="">
+            </div>
+        </div>
+      </fieldset>
+
+     </div>
+
+    <fieldset>
+        <div class="d-flex row">
+            <div class="row col-6">
+                <label><strong>We Accept</strong></label>
+                <ul>
+                    <div class="p-2 mb-1 d-flex">
+                        <div class="m-4">
+                            <input type="radio" id="Pago" name="Pago" value="Pago">
+                            <label for="Pago"><li><i class="fa-brands fa-cc-visa"></i></li></label>
+                        </div>
+                        <div class="m-4">
+                            <input type="radio" id="Pago" name="Pago" value="Pago">
+                            <label for="Pago"><li><i class="fa-brands fa-cc-mastercard"></i></li></label>
+                        </div>
+                        <div class="m-4">
+                            <input type="radio" id="Pago" name="Pago" value="Pago">
+                            <label for="Pago"><li><i class="fa-brands fa-cc-amex"></i></li></label>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="row col-6">
+                <label><strong>Message</strong></label>
+                <textarea></textarea>
+                <p>Add any notes here.</p>
+            </div>
+        </div>
+    </fieldset>
+                
+    <div class="p-2 d-flex justify-content-end">
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Send</button>
+    </div>
+  </div>
+    </fieldset>
 
     </form>
     
